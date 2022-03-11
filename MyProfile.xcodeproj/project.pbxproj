@@ -56,15 +56,55 @@
 		86D5E63027DB98DD005901CD /* MyProfile */ = {
 			isa = PBXGroup;
 			children = (
-				86D5E63127DB98DD005901CD /* AppDelegate.swift */,
-				86D5E63327DB98DD005901CD /* SceneDelegate.swift */,
-				86D5E63527DB98DD005901CD /* ViewController.swift */,
-				86D5E63727DB98DD005901CD /* Main.storyboard */,
-				86D5E63A27DB98DF005901CD /* Assets.xcassets */,
-				86D5E63C27DB98DF005901CD /* LaunchScreen.storyboard */,
-				86D5E63F27DB98DF005901CD /* Info.plist */,
+				86D5E64527DB98ED005901CD /* ViewControllers */,
+				86D5E64927DB9968005901CD /* Models */,
+				86D5E64727DB9929005901CD /* Storyboards */,
+				86D5E64827DB9942005901CD /* Resources */,
+				86D5E64627DB990A005901CD /* App */,
 			);
 			path = MyProfile;
+			sourceTree = "<group>";
+		};
+		86D5E64527DB98ED005901CD /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				86D5E63527DB98DD005901CD /* ViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		86D5E64627DB990A005901CD /* App */ = {
+			isa = PBXGroup;
+			children = (
+				86D5E63127DB98DD005901CD /* AppDelegate.swift */,
+				86D5E63327DB98DD005901CD /* SceneDelegate.swift */,
+				86D5E63F27DB98DF005901CD /* Info.plist */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		86D5E64727DB9929005901CD /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				86D5E63727DB98DD005901CD /* Main.storyboard */,
+				86D5E63C27DB98DF005901CD /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		86D5E64827DB9942005901CD /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				86D5E63A27DB98DF005901CD /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		86D5E64927DB9968005901CD /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -306,7 +346,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -334,7 +374,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
